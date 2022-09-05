@@ -5,7 +5,7 @@ pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 // GameItem is  ERC721 signifies that the contract we are creating imports ERC721 and follows ERC721 contract from openzeppelin
-contract SimpeNFT is ERC721 {
+contract SimpleNFT is ERC721 {
 
     constructor() ERC721("SimpleNFT", "SNFT") {
         _mint(msg.sender, 2);
